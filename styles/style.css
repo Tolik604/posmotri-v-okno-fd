@@ -16,6 +16,7 @@ html {
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  display: flex;
 }
 
 h1,
@@ -48,4 +49,34 @@ ol {
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: #D9D9D9;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  width: 711px;
+  
+}
+.page .content {
+  align-items: center;
+  justify-items: center;
+  
+  gap: 70px;
+  
+}
+.search-form {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.content__list-container {
+  max-height: 300px;
+  overflow: auto;
+}
+
+
+.more-button {
+    width: 100%;
 }
