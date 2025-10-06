@@ -60,6 +60,7 @@ ol {
   display: flex;
   align-items: end;
   gap: 30px;
+  min-width: 1140px;
   margin: auto;
 }
 
